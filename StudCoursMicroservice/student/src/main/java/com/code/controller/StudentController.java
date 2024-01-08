@@ -48,7 +48,7 @@ public class StudentController {
 	}
 	
 	@RequestMapping(value = "/name", method = RequestMethod.GET)
-	public Student getByName(@RequestParam(value = "name", defaultValue = "nakesh") String name) {
+	public Student getByName(@RequestParam(value = "name", defaultValue = "Imad") String name) {
 		return studentService.getByName(name);
 	}
 	
